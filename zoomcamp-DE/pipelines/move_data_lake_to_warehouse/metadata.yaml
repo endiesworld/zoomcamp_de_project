@@ -19,7 +19,7 @@ blocks:
   color: null
   configuration: {}
   downstream_blocks:
-  - export_data_bigquery
+  - convert_stringtype_to_timestamp
   executor_config: null
   executor_type: local_python
   has_callback: false
@@ -35,6 +35,23 @@ blocks:
 - all_upstream_blocks_executed: true
   color: null
   configuration: {}
+  downstream_blocks:
+  - export_data_bigquery
+  executor_config: null
+  executor_type: local_python
+  has_callback: false
+  language: python
+  name: convert_stringtype_to_timestamp
+  retry_config: null
+  status: executed
+  timeout: null
+  type: transformer
+  upstream_blocks:
+  - update_field_name
+  uuid: convert_stringtype_to_timestamp
+- all_upstream_blocks_executed: true
+  color: null
+  configuration: {}
   downstream_blocks: []
   executor_config: null
   executor_type: local_python
@@ -46,7 +63,7 @@ blocks:
   timeout: null
   type: data_exporter
   upstream_blocks:
-  - update_field_name
+  - convert_stringtype_to_timestamp
   uuid: export_data_bigquery
 cache_block_output_in_memory: false
 callbacks: []
