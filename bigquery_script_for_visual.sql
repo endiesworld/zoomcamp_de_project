@@ -13,6 +13,7 @@ FROM  `dtc-de-course-01-2024.uk_cycling_data.dec_2022_journey`
 GROUP BY bike_number, bike_model 
 ORDER BY total_journey_time DESC;
 -- Click on Explore Data Icon at the buttom right and click on Explore with looker studio, to visualize the result.
+-- Report link: https://lookerstudio.google.com/s/pjSs0CwvXjk
 
 
 -- Busiest stations by bike count
@@ -30,6 +31,7 @@ SELECT station, total_count
 FROM station_counts
 ORDER BY total_count DESC;
 -- Click on Explore Data Icon at the buttom right and click on Explore with looker studio, to visualize the result.
+-- Report link: https://lookerstudio.google.com/s/sZFMRm2O078
 
 
 -- Daily trip count Dec. 2022
@@ -45,5 +47,6 @@ GROUP BY
 ORDER BY
   trip_day;
 -- Click on Explore Data Icon at the buttom right and click on Explore with looker studio, to visualize the result.
+-- Report link: https://lookerstudio.google.com/s/g_Hia0ZXJ9M
 
 
