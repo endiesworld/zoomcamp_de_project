@@ -19,7 +19,7 @@ def load_from_google_cloud_storage(*args, **kwargs):
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
 
-    bucket_name = 'mage-zoomcamp-workflow-emmanuel'
+    bucket_name = 'mage-zoomcamp-workflow-emmanuel' #Replace this value with your bucket name
     object_key = 'dec_uk_cycling_journey_2022.parquet'
 
 

@@ -16,7 +16,7 @@ def export_data_to_big_query(df: DataFrame, **kwargs) -> None:
 
     Docs: https://docs.mage.ai/design/data-loading#bigquery
     """
-    table_id = 'dtc-de-course-01-2024.uk_cycling_data.dec_2022_journey'
+    table_id = 'dtc-de-course-01-2024.uk_cycling_data.dec_2022_journey' #Replace with project_id.data_set.table_name
     config_path = path.join(get_repo_path(), 'io_config.yaml')
     config_profile = 'default'
 
