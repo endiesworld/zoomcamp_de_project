@@ -1,4 +1,4 @@
-# Problem statement 1, Data Source
+## Problem statement 1, Data Source
 _ _ _
     For this project, I reviewed the December 2022 U.K cycling journey data.
     'https://cycling.data.tfl.gov.uk/usage-stats/346JourneyDataExtract28Nov2022-04Dec2022.csv',
@@ -7,13 +7,13 @@ _ _ _
     'https://cycling.data.tfl.gov.uk/usage-stats/349JourneyDataExtract19Dec2022-25Dec2022.csv',
     'https://cycling.data.tfl.gov.uk/usage-stats/350JourneyDataExtract26Dec2022-01Jan2023.csv'
 
-# Project Objective and Use case
+## Project Objective and Use case
 _ _ _
-    1. Visualize the daily trip count. This will help plan trafic control subsequently
-    2. Visualise the top 10 busiest stations. This can be use for targeted marketing purposes.
+    1. Visualize the daily trip count. This will help plan traffic control subsequently
+    2. Visualise the top 10 busiest stations. This can be use for targeted marketing purpose.
     3. Visualise the top 10 bicycles with the highest operation time. This would help in maintenance/service plan for bicycles.
 
-# Tools:
+## Tools:
 _ _ _ 
     . Cloud: GCP
     . Infrastructure as code (IaC): Terraform (Maga-ai)
@@ -22,14 +22,14 @@ _ _ _
     . Data Lake: Google Cloud Storage
     . Batch processing: Bigquery-sql
 
-# Running this project
+## Running this project
 _ _ _
     To run this project locally, the following prerequisite must be met:
     . Install docker and docker-compose in your machine
     . An active google cloud service account and project
     . Create and download google cloud service account key to the main project directory
 
-# Download and run the project
+## Download and run the project
     . git clone https://github.com/endiesworld/zoomcamp_de_project
     . cd zoomcamp_de_project
     . sudo lsof -i :6789 <!. This act is to confirm that port 6789 is free on the machine you intend to run this application on.>
