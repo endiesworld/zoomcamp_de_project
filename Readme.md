@@ -37,23 +37,23 @@ _ _ _
     . docker compose build <!. To build the project .>
     . Save the path to your google cloud service key as a value in the 'GOOGLE_SERVICE_ACC_KEY_FILEPATH:' in the file 'zoomcamp-DE/io_config.yml'.
     i.e You should only have this value for your google cloud service
-        # Google
-        GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/dtc-de-course-01-2024-2fd79da48386.json"
+    # Google
+    GOOGLE_SERVICE_ACC_KEY_FILEPATH: "/home/src/dtc-de-course-01-2024-2fd79da48386.json"
 
-# Run the blocks for each pipeline jobs in the orther they have been made, following the order below:
+## Run the blocks for each pipeline jobs in the orther they have been made, following the order below:
 _ _ _
 
-# Problem statement 2: Creating a pipeline for processing this dataset and putting it to a datalake
+## Problem statement 2: Creating a pipeline for processing this dataset and putting it to a datalake
 <!-- To run the Data "Exporter Block" for this pipeline you must have created a bucket in GCP and have your bucket name save in the block as shown below:-->
     . bucket_name = 'Your_bucket_name'
     . object_key = 'Object_key_to_store_data.parquet'
 
-# Problem statement 3: Creating a pipeline for moving the data from the lake to a data warehouse
+## Problem statement 3: Creating a pipeline for moving the data from the lake to a data warehouse
 <!-- Before running the Data "Data Loader" and "Exporter Block" for this pipeline you must do the below:-->
     Data "Data Loader" Block:
     . bucket_name = 'Your_bucket_name' 
     . object_key = 'Object_key_to_store_data.parquet'
-        Data "Exporter" Block:
+    Data "Exporter" Block:
     . table_id = 'your_project_id.data_set.table_namedtc-de-course-01-2024.uk_cycling_data.dec_2022_journey' #Replace project_id.data_set.table_name
 
 # Problem statement 4: Transforming the data in the data warehouse: prepare it for the dashboard
@@ -63,7 +63,7 @@ _ _ _
     . Run each block of script and read the comments below it for the dashboard visualization.
 
 # Problem statement 4: Building a dashboard to visualize the data
-Visualize the dashboard and confirm that it matches with that represented in the links below
+    Visualize the dashboard and confirm that it matches with that represented in the links below
     . Report link: https://lookerstudio.google.com/s/pjSs0CwvXjk
     . Report link: https://lookerstudio.google.com/s/sZFMRm2O078
     . Report link: https://lookerstudio.google.com/s/g_Hia0ZXJ9M
