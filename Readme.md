@@ -9,9 +9,9 @@ _ _ _
 
 ## Project Objective and Use case
 _ _ _
-    1. Visualize the daily trip count. This will help plan traffic control subsequently
-    2. Visualise the top 10 busiest stations. This can be use for targeted marketing purpose.
-    3. Visualise the top 10 bicycles with the highest operation time. This would help in maintenance/service plan for bicycles.
+    1️⃣ Analyzed daily trip counts to aid in traffic control planning.
+    2️⃣ Identified the top 10 busiest stations for targeted marketing strategies.
+    3️⃣ Determined the top 10 bicycles with the highest operation time for efficient maintenance 
 
 ## Tools:
 _ _ _ 
