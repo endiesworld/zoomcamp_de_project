@@ -56,13 +56,14 @@ _ _ _
     Data "Exporter" Block:
     . table_id = 'your_project_id.data_set.table_namedtc-de-course-01-2024.uk_cycling_data.dec_2022_journey' #Replace project_id.data_set.table_name
 
-# Problem statement 4: Transforming the data in the data warehouse: prepare it for the dashboard
+## Problem statement 4: Transforming the data in the data warehouse: prepare it for the dashboard
 _ _ _ 
     . Create a query file in your bigquery.
     . Copy and paste all the 'bigquery_script_for_dashboard.sql' file
     . Run each block of script and read the comments below it for the dashboard visualization.
 
-# Problem statement 4: Building a dashboard to visualize the data
+## Problem statement 4: Building a dashboard to visualize the data
+_ _ _
     Visualize the dashboard and confirm that it matches with that represented in the links below
     . Report link: https://lookerstudio.google.com/s/pjSs0CwvXjk
     . Report link: https://lookerstudio.google.com/s/sZFMRm2O078
